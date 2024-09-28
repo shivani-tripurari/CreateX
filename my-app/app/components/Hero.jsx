@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar.jsx'
+
 const Hero = () => {
   return (
     <div className='relative h-screen md:h-[70vh] ipad-air:h-[100vh] lg:h-[60vh] xl:h-screen bg-[#161C24]'>
         {/* navbar */}
-        <div className='absolute top-0 left-0 z-10'>
+        <div className='relative z-20'>
             <Navbar/>
         </div>
 

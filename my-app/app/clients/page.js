@@ -2,11 +2,13 @@ import React from 'react'
 import { clientInfo } from '../data';
 import Image from 'next/image';
 import Footer from '../components/Footer.jsx';
+import Navbar from '../components/Navbar.jsx';
 
 const page = () => {
   return (
     <>
     <div className='h-[300vh] md:h-[150vh] fold:h-[200vh] ipad-air:h-[100vh] xl:h-[120vh] bg-[#F5F5DC]'>
+        <Navbar/>
         <div className='pt-10 p-7 flex flex-col justify-center items-center'>
             <h1 className='pt-10 text-black font-bold text-5xl p-3'>Trusted by Brands, Big and Small</h1>
             <h3 className='text-black font-regular text-xl p-3'>from Concept to Creation. Explore the magic behind every print we've brought to life.</h3>
