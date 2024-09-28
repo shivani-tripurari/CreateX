@@ -10,7 +10,7 @@ const Infinite = () => {
     <div className='p-7 bg-[#F5F5DC]'>
       <div className='pt-10 flex flex-col justify-center items-center'>
         <h1 className='pt-10 text-black font-bold text-5xl p-3' > Trusted by Brands, Big and Small</h1>
-        <h3 className='text-black font-regular text-xl p-3' >collaborations that last</h3>
+        <h3 className='text-black font-regular text-xl p-3' >collaborations that last and help grow connections, network and bonds for years</h3>
       </div>
       <Marquee pauseOnHover={true}>
         <Image src={anurag} className='h-32 w-52 px-10'/>

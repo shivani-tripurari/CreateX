@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+            'fold': '700px',
+            'ipad-air': '820px', // Custom breakpoint for 820px width
+          },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
