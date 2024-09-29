@@ -1,4 +1,7 @@
 import img1 from '../assets/img1.svg';
+import proj2 from '../assets/proj2.svg';
+import proj3 from '../assets/proj3.svg';
+import proj4 from '../assets/proj4.svg';
 import logo1 from '../assets/anurag.svg';
 import logo2 from '../assets/tedlogo.svg';
 import logo3 from '../assets/vlogo.svg';
@@ -14,31 +17,31 @@ export const projectInfo = [
         id: "1",
         title: "T-shirts",
         desc:"loremipsum ipsum lorem",
-        imgUrl: img1
+        imgUrl: proj2
     },
     {
         id: "2",
         title: "Festive kits",
         desc:"loremipsum ipsum lorem",
-        imgUrl: img1
+        imgUrl: proj3
     },
     {
         id: "3",
         title: "Corporate gifting",
         desc:"loremipsum ipsum lorem",
-        imgUrl: img1
+        imgUrl: proj4
     },
     {
         id: "4",
         title: "Branding",
         desc:"loremipsum ipsum lorem",
-        imgUrl: img1
+        imgUrl: proj3
     },
     {
         id: "5",
         title: "Designing",
         desc:"loremipsum ipsum lorem",
-        imgUrl: img1
+        imgUrl: proj4
     },
     {
         id: "6",
@@ -50,7 +53,7 @@ export const projectInfo = [
         id: "7",
         title: "Sippers",
         desc:"loremipsum ipsum lorem",
-        imgUrl: img1
+        imgUrl: proj2
     }
 
 ]
