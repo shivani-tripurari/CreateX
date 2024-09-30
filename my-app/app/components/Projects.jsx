@@ -25,7 +25,7 @@ const Projects = () => {
         </div>
         <div className='flex justify-center items-center gap-x-3'>
         <Link href='/projects'>
-            <h3 className='text-black inline-block flex justify-center border-b-2 border-black items-center hover:scale-125 '>View all</h3>
+            <h3 className='transition duration-500 ease-in-out text-black inline-block flex justify-center border-b-2 border-black items-center hover:scale-125 '>View all</h3>
             {/* <Image src={redirect} className='h-4 w-4' /> */}
         </Link>
         </div>

@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className='relative z-50 p-7 flex justify-between items-center'>
-        <Image src={logo} className='h-20 w-24'/>
+        <Link href='/'><Image src={logo} className='h-20 w-24'/></Link>
         <Hamburger
           color="black"
           size={28}
