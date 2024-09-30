@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Projects = () => {
   return (
-    <div className='h-[360vh] md:h-[150vh] fold:h-[200vh] ipad-air:h-[100vh] xl:h-[136vh] bg-[#FFFFFF]'>
+    <div className='h-[340vh] md:h-[150vh] fold:h-[200vh] ipad-air:h-[100vh] xl:h-[136vh] bg-[#FFFFFF]'>
         <div className='pt-10 p-7 flex flex-col justify-center items-center'>
             <h1 className='pt-10 text-black font-bold text-5xl p-3'>Crafted with Precision, Delivered with Passion.</h1>
             <h3 className='text-black font-regular text-xl p-3'>from Concept to Creation. Explore the magic behind every print we've brought to life.</h3>
