@@ -7,7 +7,7 @@ import location from '../assets/location.svg'
 
 const Footer = () => {
   return (
-    <div className='relative h-[50vh] ipad-air:h-[30vh] xl:h-[50vh] bg-[#161C24]'>
+    <div className='relative h-[50vh] ipad-air:h-[30vh] xl:h-[60vh] bg-[#161C24]'>
       <div className='z-10 absolute top-3 text-[3rem] md:left-[7rem] fold:left-[9rem] ipad-air:left-[11rem] xl:left-[21rem] flex flex-col justify-center items-center'>
         <Image src={logo} className='h-32 w-24'/>
         <h1 className='text-2xl text-center md:text-4xl lg:text-5xl text-black'>Ready to bring your Vision to Life ?</h1>
