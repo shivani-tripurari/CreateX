@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar.jsx';
 const page = () => {
   return (
     <>
-    <div className='h-[320vh] md:h-[150vh] fold:h-[200vh] ipad-air:h-[100vh] xl:h-[144vh] bg-[#F5F5DC]'>
+    <div className='h-[330vh] md:h-[150vh] fold:h-[200vh] ipad-air:h-[100vh] xl:h-[144vh] bg-[#F5F5DC]'>
         <Navbar/>
         <div className='pt-10 p-7 flex flex-col justify-center items-center'>
             <h1 className='pt-10 text-black font-bold text-5xl p-3'>Trusted by Brands, Big and Small</h1>
