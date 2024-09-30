@@ -3,6 +3,7 @@ import Image from 'next/image'
 import img1 from '../assets/img1.svg';
 import { projectInfo } from '../data';
 import Link from 'next/link';
+// import redirect from '../assets/redirect2.svg'
 
 const Projects = () => {
   return (
@@ -22,7 +23,12 @@ const Projects = () => {
             </div>
             
         </div>
-        <Link href='/projects'><h3 className='text-black block flex justify-center items-center '>View all</h3></Link>
+        <div className='flex justify-center items-center gap-x-3'>
+        <Link href='/projects'>
+            <h3 className='text-black inline-block flex justify-center border-b-2 border-black items-center hover:scale-125 '>View all</h3>
+            {/* <Image src={redirect} className='h-4 w-4' /> */}
+        </Link>
+        </div>
     </div>
   )
 }
