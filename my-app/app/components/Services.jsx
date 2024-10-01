@@ -50,10 +50,12 @@ const Services = () => {
                 "Festival kits"
             ]}      
         />
-        <div className='group flex flex-row justify-center items-center gap-x-3 mt-20 ml-12 mb-1 h-12 w-[20rem] md:w-[40rem] fold:w-[38rem] ipad-air:w-[62rem] xl:w-[82rem] xl:ml-7 border-2 border-[#171717]'>
+       <div className='flex justify-center items-center'>
+       <div className='group flex flex-row justify-center items-center gap-x-3 mt-20  mb-1 h-12 w-[90%] md:w-[90%] fold:w-[90%] ipad-air:w-[90%] xl:w-[98%]  border-2 border-[#171717]'>
             <h3 className='transition duration-500 ease-in-out text-[#171717] text-base font-semibold group-hover:scale-125'>Explore now</h3>
             <Image src={redirect2} className='transition duration-500 ease-in-out group-hover:scale-125 group-hover:translate-x-2' />
         </div>
+       </div>
     </div>
   )
 }
