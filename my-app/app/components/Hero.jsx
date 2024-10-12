@@ -13,8 +13,8 @@ const Hero = () => {
             <div className='p-4 border-slate-700 border-l-4'> 
             {/* text */}
             <h1 className='text-4xl lg:text-5xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-stone-950 to-50% to-stone-800'>We are a Creative Agency, shaping experiences that</h1>
-            <div class="font-semibold text-3xl lg:text-3xl md:text-2xl "><span class="text-purple-700 inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
-                <ul class=" block animate-text-slide-3 text-left leading-tight [&_li]:block">
+            <div className="font-semibold text-3xl lg:text-3xl md:text-2xl "><span className="text-purple-700 inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
+                <ul className=" block animate-text-slide-3 text-left leading-tight [&_li]:block">
                     <li>leave lasting impressions.</li>
                     <li>help you stand out in style.</li>
                     <li>make your brand unforgettable.</li>
