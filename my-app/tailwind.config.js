@@ -15,6 +15,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: theme => ({
+        'gradient-image': "url('../app/assets/heroBG.svg')"
+        // add more images as needed
+      }),
       animation: {
         'text-slide-2': 'text-slide-2 5s cubic-bezier(0.83, 0, 0.17, 1) infinite',
         'text-slide-3': 'text-slide-3 7.5s cubic-bezier(0.83, 0, 0.17, 1) infinite',

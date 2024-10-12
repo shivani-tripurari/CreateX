@@ -3,14 +3,14 @@ import Navbar from './Navbar.jsx'
 
 const Hero = () => {
   return (
-    <div className='relative h-screen md:h-[70vh] ipad-air:h-[100vh] lg:h-[60vh] xl:h-screen bg-[#161C24]'>
+    <div className='relative  bg-gradient-image bg-cover bg-center bg-no-repeat'>
         {/* navbar */}
-        <div className='relative z-20'>
+        <div>
             <Navbar/>
         </div>
 
-        <div className='mt-10 absolute z-10 top-64 left-12 lg:top-56 lg:left-28'>
-            <div className=' ml-3 p-4 border-slate-700 border-l-4'> 
+        <div className='relative z-20 py-[10vh] px-4'>
+            <div className='p-4 border-slate-700 border-l-4'> 
             {/* text */}
             <h1 className='text-4xl lg:text-5xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-stone-950 to-50% to-stone-800'>We are a Creative Agency, shaping experiences that</h1>
             <div class="font-semibold text-3xl lg:text-3xl md:text-2xl "><span class="text-purple-700 inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
@@ -28,12 +28,12 @@ const Hero = () => {
             </div>
         </div>
         
-        <div className=' overflow-hidden absolute top-0 left-0 h-full w-full backdrop-blur-lg bg-[#daf6fb]'>
+        {/* <div className=' overflow-hidden absolute top-0 left-0 h-full w-full backdrop-blur-lg bg-[#daf6fb]'> */}
             {/* glass overlay--->gradient */}
-            <div className='blur-[120px] absolute -bottom-40 -right-7 h-[32rem] w-[36rem] bg-gradient-to-r from-yellow-200 via-lime-400 to-green-600 rounded-full'></div>
+            {/* <div className='blur-[120px] absolute -bottom-40 -right-7 h-[32rem] w-[36rem] bg-gradient-to-r from-yellow-200 via-lime-400 to-green-600 rounded-full'></div>
             <div className='blur-[240px] absolute -bottom-80 left-0 h-[30rem] w-[64rem] bg-gradient-to-br from-pink-500 via-red-500 to-orange-500 rounded-full'></div>
             <div className='blur-2xl absolute top-0 -left-7 h-24 w-36 bg-gradient-to-r from-yellow-200 via-lime-400 to-green-600 rounded-full'></div>
-        </div>
+        </div> */}
       
     </div>
   )

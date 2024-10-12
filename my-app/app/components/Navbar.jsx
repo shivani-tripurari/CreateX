@@ -13,7 +13,7 @@ const Navbar = () => {
   const[open, setOpen]=useState(false);
 
   return (
-    <div className='relative z-50 p-7 flex justify-between items-center'>
+    <div className='relative z-50 px-7 py-5 flex justify-between items-center'>
         <Link href='/'><Image src={logo} className='h-20 w-24'/></Link>
         <Hamburger
           color="black"
@@ -22,7 +22,7 @@ const Navbar = () => {
           toggle={setOpen}
         />
         {open && 
-          <div className='text-xl text-white fixed absolute top-0 right-0 w-screen h-screen p-4 bg-[#daf6fb]'>
+          <div className='text-xl text-white fixed static top-0 right-0 w-screen h-screen p-4 bg-[#daf6fb]'>
             <header className='flex justify-end items-center p-7 '>
                 <Hamburger
                   color="black"
