@@ -3,13 +3,13 @@ import Navbar from './Navbar.jsx'
 
 const Hero = () => {
   return (
-    <div className='relative  bg-gradient-image bg-cover bg-center bg-no-repeat'>
+    <div className='relative pb-40 bg-gradient-image bg-cover bg-center bg-no-repeat'>
         {/* navbar */}
         <div>
             <Navbar/>
         </div>
 
-        <div className='relative z-20 py-[10vh] px-4'>
+        <div className='relative z-20 py-[10vh] px-4 pl-20'>
             <div className='p-4 border-slate-700 border-l-4'> 
             {/* text */}
             <h1 className='text-4xl lg:text-5xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-stone-950 to-50% to-stone-800'>We are a Creative Agency, shaping experiences that</h1>
