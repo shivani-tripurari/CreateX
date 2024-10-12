@@ -3,7 +3,7 @@ import Navbar from './Navbar.jsx'
 
 const Hero = () => {
   return (
-    <div className='relative pb-40 bg-gradient-image bg-cover bg-center bg-no-repeat'>
+    <div className='relative pb-40 lg:pb-80 bg-gradient-image bg-cover bg-center bg-no-repeat'>
         {/* navbar */}
         <div>
             <Navbar/>
