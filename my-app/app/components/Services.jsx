@@ -4,7 +4,7 @@ import Image from 'next/image';
 import redirect2 from '../assets/redirect2.svg'
 const Services = () => {
   return (
-    <div className=' mb-10 bg-[#F5F5DC]'>
+    <div className='pb-10 mb-10 bg-[#F5F5DC]'>
         <div className='pt-10 p-7 flex flex-col justify-center items-center'>
             <h1 className='pt-10 text-black font-bold text-5xl p-3'>Bringing Your Ideas to Life with Crafted Excellence.</h1>
             <h3 className='text-black font-regular text-xl p-3'>discover our range of services that go beyond the ordinary.</h3>

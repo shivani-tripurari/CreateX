@@ -26,7 +26,7 @@ const Footer = () => {
                 <p className='text-sm lg:text-base font-semibold text-black/70'>9652953658</p>
             </div>
         </div>
-        <div className=' pt-2 flex flex-row justify-center items-center gap-x-3'>
+        <div className='pb-7 pt-2 flex flex-row justify-center items-center gap-x-3'>
             <Image src={location} className='h-7 w-7' />
             <p className='text-sm lg:text-base font-semibold text-black/70' >Hyderabad</p>
         </div>
